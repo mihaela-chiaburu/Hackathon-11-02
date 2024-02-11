@@ -13,9 +13,6 @@
         android:theme="@style/Theme.ComfySleep2"
         tools:targetApi="31">
         <activity
-            android:name=".BarChartActivity"
-            android:exported="false" />
-        <activity
             android:name=".Statistics"
             android:exported="false" />
         <activity

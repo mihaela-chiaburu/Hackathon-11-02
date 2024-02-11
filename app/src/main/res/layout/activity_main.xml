@@ -24,15 +24,15 @@
 
     <ImageButton
         android:id="@+id/nextPage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="360dp"
+        android:layout_width="43dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="352dp"
         android:layout_marginTop="16dp"
         android:contentDescription="Back button"
         android:onClick="onClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrowleft"
+        app:srcCompat="@drawable/arrowright"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
@@ -102,17 +102,17 @@
 
     <TextView
         android:id="@+id/progress_text"
-        android:layout_width="141dp"
-        android:layout_height="25dp"
+        android:layout_width="146dp"
+        android:layout_height="53dp"
         android:layout_centerVertical="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="88dp"
         android:gravity="center"
         android:text="-------------------"
         android:textColor="@color/white"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/progress_bar"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="@+id/progress_bar"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 

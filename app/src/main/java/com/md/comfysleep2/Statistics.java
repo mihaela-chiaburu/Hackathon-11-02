@@ -49,6 +49,12 @@ public class Statistics extends AppCompatActivity {
         ProgressBar progressBar8 = findViewById(R.id.progressBar8);
         int percentage8 = 85;
         progressBar8.setProgress(percentage8);
+        ProgressBar progressBar10 = findViewById(R.id.progressBar10);
+        int percentage10 = 75;
+        progressBar10.setProgress(percentage10);
+        ProgressBar progressBar9 = findViewById(R.id.progressBar9);
+        int percentage9 = 55;
+        progressBar9.setProgress(percentage9);
 
     }
 }
